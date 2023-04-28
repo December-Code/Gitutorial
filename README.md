@@ -1,7 +1,7 @@
 # Git Tips
 
 ## **Git config**
-## Setting
+### Setting
 global
 ```git
 git config --global user.name "your name"
@@ -14,7 +14,7 @@ git config --local user.name "your name"
 git config --local user.email "your@email"
 ```
 
-## List config
+### List config
 global
 ```git
 git config --gobal --list
@@ -31,20 +31,20 @@ git status
 ```
 
 ## **Git init**
-## Current dir
+### Current dir
 ```git
 git init
 ```
-## Set dir
+### Set dir
 ```git
 git init <directory>
 ```
 ## **Git clone**
-## normal
+### normal
 ```git
 git clone <url>
 ```
-## accelerate
+### accelerate
 single branch
 ```git
 git clone <url> --depth 1
