@@ -94,6 +94,11 @@ git commit --amend
 git push
 ```
 
+new branch for github
+```
+git push --set-upstream <url> <branch_name>
+```
+
 ## **Git Log**
 ```git
 git log
