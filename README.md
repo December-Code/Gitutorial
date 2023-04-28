@@ -99,6 +99,16 @@ new branch for github
 git push --set-upstream <url> <branch_name>
 ```
 
+replace last commit (not recommend)
+```
+git push -f
+```
+
+Avoid replace other commit
+```
+git push --force-with-lease
+```
+
 ## **Git Log**
 ```git
 git log
