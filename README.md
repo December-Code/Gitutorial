@@ -2,94 +2,99 @@
 
 ## **Git config**
 ## Setting
-<sub>global</sub>
-```
+global
+```git
 git config --global user.name "your name"
 git config --global user.email "your@email"
 ```
-<sub>local</sub>
-```
+
+local
+```git
 git config --local user.name "your name"
 git config --local user.email "your@email"
 ```
 
 ## List config
-<sub>global</sub>
-```
+global
+```git
 git config --gobal --list
 ```
-<sub>local</sub>
-```
+
+local
+```git
 git ocnfig --local --list
 ```
 
 ## **Git Status**
-```
+```git
 git status
 ```
 
 ## **Git init**
 ## Current dir
-```
+```git
 git init
 ```
 ## Set dir
-```
+```git
 git init <directory>
 ```
 ## **Git clone**
 ## normal
-```
+```git
 git clone <url>
 ```
 ## accelerate
-<sub>single branch</sub>
-```
+single branch
+```git
 git clone <url> --depth 1
 ```
 git clone <url> --depth 1 == git clone <url> --depth 1 --single-branch
 
-<sub>All branch</sub>
-```
+All branch
+```git
 git clone <url> --depth 1 --no-single-branch
 ```
 
 ## **Git Add (Stage)**
 
-<sub>single</sub>
-```
+single
+```git
 git add <file_name>
 ```
-<sub>All</sub>
-```
+
+All
+```git
 git add .
 ```
-<sub>git remove added-file</sub>
-```
+git remove added-file
+```git
 git reset HEAD <file_name>
 ```
 
 ## **Git Commit**
 
-<sub>commit has been added</sub>
-```
+commit has been added
+```git
 git commit -m "information"
 ``` 
-<sub>open edit file and commit</sub>
-```
+
+open edit file and commit
+```git
 git commit -a
 ```
-<sub>edit last commit information</sub>
-```
+
+edit last commit information
+```git
 git commit --amend
 ```
 
 ## **Git Push**
-````
+````git
 git push
-````
+```
 
 ## **Git Log**
-```
+```git
 git log
 ```
