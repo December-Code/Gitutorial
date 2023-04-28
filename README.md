@@ -2,23 +2,23 @@
 
 ## **Git config**
 ## Setting
-<u>global</u>
+<sub>global</sub>
 ```
 git config --global user.name "your name"
 git config --global user.email "your@email"
 ```
-<u>local</u>
+<sub>local</sub>
 ```
 git config --local user.name "your name"
 git config --local user.email "your@email"
 ```
 
 ## List config
-<u>global</u>
+<sub>global</sub>
 ```
 git config --gobal --list
 ```
-<u>local</u>
+<sub>local</sub>
 ```
 git ocnfig --local --list
 ```
@@ -43,43 +43,43 @@ git init <directory>
 git clone <url>
 ```
 ## accelerate
-<u>single branch</u>
+<sub>single branch</sub>
 ```
 git clone <url> --depth 1
 ```
 git clone <url> --depth 1 == git clone <url> --depth 1 --single-branch
 
-<u>All branch</u>
+<sub>All branch</sub>
 ```
 git clone <url> --depth 1 --no-single-branch
 ```
 
 ## **Git Add (Stage)**
 
-<u>single</u>
+<sub>single</sub>
 ```
 git add <file_name>
 ```
-<u>All</u>
+<sub>All</sub>
 ```
 git add .
 ```
-<u>git remove added-file</u>
+<sub>git remove added-file</sub>
 ```
 git reset HEAD <file_name>
 ```
 
 ## **Git Commit**
 
-<u>commit has been added</u>
+<sub>commit has been added</sub>
 ```
 git commit -m "information"
 ``` 
-<u>open edit file and commit</u>
+<sub>open edit file and commit</sub>
 ```
 git commit -a
 ```
-<u>edit last commit information</u>
+<sub>edit last commit information</sub>
 ```
 git commit --amend
 ```
