@@ -90,7 +90,7 @@ git commit --amend
 ```
 
 ## **Git Push**
-````git
+```git
 git push
 ```
 
