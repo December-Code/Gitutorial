@@ -23,6 +23,11 @@ git config --gobal --list
 git ocnfig --local --list
 ```
 
+## **Git Status**
+```
+git status
+```
+
 ## **Git init**
 ## Current dir
 ```
@@ -58,4 +63,33 @@ git add <file_name>
 <u>All</u>
 ```
 git add .
+```
+<u>git remove added-file</u>
+```
+git reset HEAD <file_name>
+```
+
+## **Git Commit**
+
+<u>commit has been added</u>
+```
+git commit -m "information"
+``` 
+<u>open edit file and commit</u>
+```
+git commit -a
+```
+<u>edit last commit information</u>
+```
+git commit --amend
+```
+
+## **Git Push**
+````
+git push
+````
+
+## **Git Log**
+```
+git log
 ```
