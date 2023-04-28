@@ -98,3 +98,13 @@ git push
 ```git
 git log
 ```
+log GUI Graph
+```
+git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative
+```
+
+## **Git HEAD**
+go current head
+```
+git reset --hard HEAD
+```
