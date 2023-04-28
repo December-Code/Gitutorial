@@ -1,36 +1,61 @@
 # Git Tips
 
-## Git config
-### setting
+## **Git config**
+## Setting
+<u>global</u>
 ```
-global
 git config --global user.name "your name"
 git config --global user.email "your@email"
-
-local
+```
+<u>local</u>
+```
 git config --local user.name "your name"
 git config --local user.email "your@email"
 ```
 
-### list
+## List config
+<u>global</u>
 ```
-global
 git config --gobal --list
-
-local
+```
+<u>local</u>
+```
 git ocnfig --local --list
 ```
 
-## Git init
-### Current dir
+## **Git init**
+## Current dir
 ```
 git init
 ```
-### set dir
+## Set dir
 ```
 git init <directory>
 ```
-## git clone
-### normal
+## **Git clone**
+## normal
 ```
-git clone (https://github.com/chenyuru-github/gitutorial.git)
+git clone <url>
+```
+## accelerate
+<u>single branch</u>
+```
+git clone <url> --depth 1
+```
+git clone <url> --depth 1 == git clone <url> --depth 1 --single-branch
+
+<u>All branch</u>
+```
+git clone <url> --depth 1 --no-single-branch
+```
+
+## **Git Add (Stage)**
+
+<u>single</u>
+```
+git add <file_name>
+```
+<u>All</u>
+```
+git add .
+```
