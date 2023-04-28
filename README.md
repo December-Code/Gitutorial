@@ -3,94 +3,94 @@
 ## **Git config**
 ### Setting
 global
-```git
+```cmd
 git config --global user.name "your name"
 git config --global user.email "your@email"
 ```
 
 local
-```git
+```cmd
 git config --local user.name "your name"
 git config --local user.email "your@email"
 ```
 
 ### List config
 global
-```git
+```cmd
 git config --gobal --list
 ```
 
 local
-```git
+```cmd
 git ocnfig --local --list
 ```
 
 ## **Git Status**
-```git
+```cmd
 git status
 ```
 
 ## **Git init**
 ### Current dir
-```git
+```cmd
 git init
 ```
 ### Set dir
-```git
+```cmd
 git init <directory>
 ```
 ## **Git clone**
 ### normal
-```git
+```cmd
 git clone <url>
 ```
 ### accelerate
 single branch
-```git
+```cmd
 git clone <url> --depth 1
 ```
 git clone <url> --depth 1 == git clone <url> --depth 1 --single-branch
 
 All branch
-```git
+```cmd
 git clone <url> --depth 1 --no-single-branch
 ```
 
 ## **Git Add (Stage)**
 
 single
-```git
+```cmd
 git add <file_name>
 ```
 
 All
-```git
+```cmd
 git add .
 ```
 git remove added-file
-```git
+```cmd
 git reset HEAD <file_name>
 ```
 
 ## **Git Commit**
 
 commit has been added
-```git
+```cmd
 git commit -m "information"
 ``` 
 
 open edit file and commit
-```git
+```cmd
 git commit -a
 ```
 
 edit last commit information
-```git
+```cmd
 git commit --amend
 ```
 
 ## **Git Push**
-```git
+```cmd
 git push
 ```
 
@@ -110,7 +110,7 @@ git push --force-with-lease
 ```
 
 ## **Git Log**
-```git
+```cmd
 git log
 ```
 log GUI Graph
@@ -123,3 +123,15 @@ go current head
 ```
 git reset --hard HEAD
 ```
+
+go specific head
+```
+git reset --hard <HEAD_ID>
+```
+
+git reset has three tags\
+`--hard` 捨棄過去 commit，不保留現在視窗\
+`--soft` 捨去過去commit，保留現在視窗\
+`--mixed`
+
+`--soft` 適用在合併無用commit
