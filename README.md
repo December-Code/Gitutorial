@@ -1,6 +1,7 @@
-# Welcome to GitHub Desktop!
+# Git Tips
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+## git global config
+    git config --global user.name "your name"
+    git config --global user.email "your@email"
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
-Demceber
+## git config --global -list
